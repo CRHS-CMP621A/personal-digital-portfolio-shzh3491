@@ -1,7 +1,14 @@
+body {
+  margin: 0;
+}
+
 .header {
-    background-color: #6eca7a;
+    background-color: aqua;
     padding: 40px;
     text-align: center;
+    font-size: 30px;
+    font-family:'Courier New';
+    font-weight: bolder;
   }
 
   /* Style the top navigation bar */
@@ -25,3 +32,61 @@
     background-color: #ddd;
     color: black;
   }
+
+
+
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 20px;
+    position: absolute;
+
+  }
+
+  .column{
+      background-color: #f1f1f1;
+      width: 30%;
+      height: 625px;
+      margin: 10px;
+      text-align: center;
+      padding: 20px
+  }
+
+  #text{
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font: weight px;
+  }
+
+  .selfie {
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(49, 155, 28);
+  }
+
+  .arduinoimg{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(204, 60, 204);
+
+  }
+
+  .tims{
+    border-radius: 8px;
+    border-style: solid;
+    border-color: rgb(216, 47, 35);
+
+  }
+
+  footer {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    background-color: aqua;
+  }
+
+
+
+  
